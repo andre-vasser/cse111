@@ -14,7 +14,7 @@ def hello(name: str) -> str:
     Returns:
         str: The welcome message with the users name."""
         
-return f'Hello, {name}!'
+return f'Hello, {__name__}!'
     
 if __name__ == '__main__':
     main()
